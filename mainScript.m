@@ -1,6 +1,10 @@
 %% Intelligent & Adaptive Automatic Control Systems
-% Aforozi Thomais
-% AEM: 9291
+% The problem we are trying to solve is to design an adaptive control law so that the system 
+% output tracks asymptotically the reference output yref, while having the closed-loop signals
+% remaining uniformly bounded. The parameter convergence is neither guaranteed nor required.
+% So as to stress this point, we apply the second form of the reference input and we notice
+% that the goal is still achieved, even though the gain parameters don't approach their real 
+% values. 
 
 %% Clear Workspace
 clc;
@@ -34,9 +38,6 @@ ylabel('$$\phi(t),p(t)$$','Interpreter','Latex');
 leg1 = legend('$\phi(t)$','$p(t)$');
 set(leg1,'Interpreter','latex');
 end
-
-% figure;
-% quiver(phi,p,p,theta1*phi + theta2*p + (theta3*abs(phi) + theta4*abs(p)).*p+ theta5*(phi).^3);
 
 %% B) Limit Cycle & Phase Portrait
 % Observation of the system behavior & its stability  
@@ -135,7 +136,7 @@ e = [e_phi; e_p];
 
 
 %% Plot
-% ö,öref,eö
+% Ã¶,Ã¶ref,eÃ¶
 figure;
 subplot(2,1,1)
 plot(tspan,Phii,'LineWidth', 1.8,'LineStyle','-.', 'Color', [0.8500 0.3250 0.0980]);
