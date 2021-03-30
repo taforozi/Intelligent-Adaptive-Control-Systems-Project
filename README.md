@@ -1,5 +1,5 @@
 # Intelligent-Adaptive-Control-Systems-Project
-The objective of this task was the applicability of the MRAC (Model Reference Adaptive Control) approach to a MIMO non-linear system so that the system state tracks asymptotically the state of the reference model, while having the closed-loop signals remaining uniformly bounded. The parameter convergence is neither guaranteed nor required. So as to stress this point, we apply the second form of the reference input and we notice that the goal is still achieved, even though the gain parameters don't approach their real values. \
+The objective of this task was the applicability of the **MRAC** (Model Reference Adaptive Control) approach to a MIMO non-linear system so that the system state tracks asymptotically the state of the reference model, while having the closed-loop signals remaining uniformly bounded. The parameter convergence is neither guaranteed nor required. So as to stress this point, we apply the second form of the reference input and we notice that the goal is still achieved, even though the gain parameters don't approach their real values. \
 In this case, the non-linear equation describes the roll-axis motion of an aircraft.
 
 <p align="center">
