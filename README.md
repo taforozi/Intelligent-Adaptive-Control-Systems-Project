@@ -3,7 +3,7 @@ The objective of this task was the applicability of the **MRAC** (Model Referenc
 In this case, the non-linear equation describes the roll-axis motion of an aircraft.
 
 <p align="center">
-  <img width="640" height="480" src="https://user-images.githubusercontent.com/81076999/112998256-89dc0b80-9176-11eb-881e-44ec3629d12d.png">
+  <img width="520" height="320" src="https://user-images.githubusercontent.com/81076999/112998256-89dc0b80-9176-11eb-881e-44ec3629d12d.png">
 </p>
 
 ###### _The image above can be found [here](https://www.infohas.ma/en/aircraft-stability-and-control/)._
